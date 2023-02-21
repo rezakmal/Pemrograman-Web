@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAB II</title>
+</head>
+<body>
+    <!--1. Menggunakan Link-->
+    <h1 align="center">--1. Menggunakan Link--</h1>
+    <a href="https://www.google.com/" target="_blank" title="Google">Klik disini</a>
+    <br />
+
+        <!--Link Internal-->
+        Menu
+        <ul>
+            <li><a href="#pendahuluan">Pendahuluan</a></li>
+            <li><a href="#pembahasan">Pembahasan</a></li>
+            <li><a href="#kesimpulan">Kesimpulan</a></li>
+        </ul>
+        <h3 id="pendahuluan">Pendahuluan</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <h3 id="pembahasan">Pembahasan</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <h3 id="kesimpulan">Kesimpulan</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <!--Link Email-->
+        <a href="mailto:akhsinnurlayli@uny.ac.id">Mengirimkan email</a>
+
+        <!--Link Gambar-->
+        <a href="https://www.google.com/" target="_blank" title="Search with google">
+            <img src="google.png" border="0" height="30%" width="30%">
+        </a>
+
+
+    <!--2. Tabel-->
+    <h1 align="center">--2. Tabel--</h1>
+    <!--Menciptakan tabel-->
+    <h2>2.1. Menciptakan Tabel</h2>
+    <table border="1">
+        <caption>Label dari table</caption>
+        <!--Header-->
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Alamat</th>
+        </tr>
+        <!--Baris data pertama-->
+        <tr>
+            <th>1</th>
+            <th>Reza</th>
+            <th>Jl. Rindu</th>
+        </tr>
+    </table>
+    <!--Pemformatan Tabel-->
+    <h2>2.2. Pemformatan Tabel</h2>
+    <table border="1" align="center" cellspacing="0" cellpadding="10">
+        <!--Header-->
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Alamat</th>
+        </tr>
+        <!--Baris data pertama-->
+        <tr>
+            <td>1</td>
+            <td>Reza</td>
+            <td>Jl. Rindu</td>
+        </tr>
+    </table>
+    <!--Mengatur Lebar Sel-->
+    <h2>2.3. Mengatur Lebar Sel</h2>
+    <table border="1" align="center" cellspacing="1" cellpadding="5">
+        <tr>
+            <!--Mengatur Lebar Kolom-->
+            <th width="50">No</th>
+            <th width="150">Nama</th>
+            <th width="200">Alamat</th>
+        </tr>
+        <!--Baris Data Pertama-->
+        <tr>
+            <td>1</td>
+            <td>Reza</td>
+            <td>Jl. Rindu</td>
+        </tr>
+    </table>
+    <!--Desain Tabel-->
+    <h2>2.4. Desain Tabel</h2>
+    <table border="1" align="center" cellspacing="0" cellpadding=5>
+        <tr>
+            <th width="50">No</th>
+            <!--Gabung kolom nama dan alamat-->
+            <th width="350" colspan="2">Span Nama dan Alamat</th>
+        </tr>
+        <!--Baris Data Pertama-->
+        <tr>
+            <!--Gabung Baris 1 dan 2-->
+            <td rowspan="2">Span Baris 1 dan 2</td>
+            <td>Reza</td>
+            <td>Jl. Rindu</td>
+        </tr>
+        <!--Baris Data Kedua-->
+        <tr>
+            <td>Akmal</td>
+            <td>Jl. Kangen</td>
+        </tr>
+    </table>
+
+    <!--3. Form-->
+    <h1 align="center">--3. Form--</h1>
+    <form action="" method="post">
+        <table border="0">
+            <tr>
+                <td>NIK</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Nama</td>
+                <td><input type="text"></td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>
+                    <input type="radio" />Pria
+                    <input type="radio" />Wanita
+                </td>
+            </tr>
+
+            <tr>
+                <td>Pekerjaan</td>
+                <td>
+                    <select name="Job" id="">
+                        <option>Guru</option>
+                        <option>Wiraswasta</option>
+                        <option>Lainnya</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" value="OK">
+                    <input type="submit" value="Cancel">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

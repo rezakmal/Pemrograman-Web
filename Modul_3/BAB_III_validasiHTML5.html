@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAB III</title>
+</head>
+<body>
+    <h2 align="center">BAB III: Validasi HTML5</h2>
+    <!--Memberi Keterangan pada Input-->
+    <form action="" method="post">
+        <table border="0">
+            <!--Kolom Nama Lengkap-->
+            <tr>
+                <td>Nama Lengkap:</td>
+                <td>
+                    <!--
+                        tipe input berupa text,
+                        ukuran 30,
+                        dengan keterangan "Masukkan Nama Lengkap Anda",
+                        dan wajib diisi.
+                    -->
+                    <input
+                    type="text"
+                    name="nama"
+                    placeholder="Masukkan Nama Lengkap Anda"
+                    size="30"
+                    required>
+                </td>
+            </tr>
+
+            <!--Kolom Username-->
+            <tr>
+                <td>Username:</td>
+                <td>
+                    <!--
+                        tipe input berupa text,
+                        ukuran 30,
+                        dengan keterangan "Masukkan Username Anda",
+                        dan wajib diisi.
+                    -->
+                    <input
+                    type="text"
+                    name="username"
+                    placeholder="Masukkan Username Anda"
+                    size="30"
+                    required>
+                </td>
+            </tr>
+
+            <!--Kolom Password-->
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <!--
+                        tipe input berupa password,
+                        ukuran 30,
+                        dengan keterangan "Masukkan Password Anda",
+                        dan wajib diisi.
+                    -->
+                    <input
+                    type="password"
+                    name="password"
+                    placeholder="Masukkan Password Anda"
+                    size="30"
+                    required>
+                </td>
+            </tr>
+
+            <!--Kolom Tanggal Lahir-->
+            <tr>
+                <td>Tanggal Lahir:</td>
+                <td>
+                    <!--
+                        tipe input berupa tanggal,
+                        ukuran 30,
+                        dan wajib diisi.
+                    -->
+                    <input
+                    type="date"
+                    name="birth"
+                    size="30"
+                    required>
+                </td>
+            </tr>
+
+            <!--Kolom Email-->
+            <tr>
+                <td>Email:</td>
+                <td>
+                    <!--
+                        tipe input berupa email,
+                        ukuran 30,
+                        dengan keterangan "Masukkan Email Anda",
+                        dan wajib diisi.
+                    -->
+                    <input
+                    type="email"
+                    name="email"
+                    placeholder="Masukkan Email Anda"
+                    size="30"
+                    required>
+                </td>
+            </tr>
+
+            <!--Kolom Telepon-->
+            <tr>
+                <td>Telepon:</td>
+                <td>
+                    <!--
+                        tipe input berupa text,
+                        ukuran 30,
+                        maksimum karakter 12 digit,
+                        dengan keterangan "Masukkan Nomor Telepon Anda",
+                        dan wajib diisi.
+                    -->
+                    <input
+                    type="text"
+                    name="tel"
+                    maxlength="12"
+                    placeholder="Masukkan Nomor Telepon Anda"
+                    size="30"
+                    required>
+                </td>
+            </tr>
+
+            <!--Tombol Submit dengan Value "Buat Akun Saya"-->
+            <tr>
+                <td></td>
+                <td>
+                    <input
+                    type="submit"
+                    value="Buat Akun Saya">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

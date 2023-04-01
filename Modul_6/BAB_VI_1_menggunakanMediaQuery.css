@@ -1,0 +1,15 @@
+/*Pengaturan default display none*/
+.smartphone {
+    display: none;
+
+}
+
+/*Media Query untuk smartphone 375px*/
+@media only screen and (max-width: 375px) {
+    body {
+        background-color: mediumaquamarine;
+    }
+    .smartphone {
+        display: block;
+    }
+}

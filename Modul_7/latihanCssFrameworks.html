@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAB VII CSS Framework</title>
+    <!--lates compiled and minified css-->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!--jQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!--latest compiled JavaScript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--CONTAINERS-->
+    <h1 style="text-align: center;">CONTAINERS</h1>
+    <!--CONTAINER BIASA-->
+    <h2>1. Container Biasa</h2>
+    <div class="container">
+        <h1>My First Bootstrap Page</h1>
+        <p>This part is inside a .container class.</p> 
+        <p>The .container class provides a responsive fixed width container.</p>           
+    </div>
+    <!--CONTAINER FLUID-->
+    <h2>2. Container Fluid</h2>
+    <div class="container-fluid">
+        <h1>My First Bootstrap Page</h1>      
+        <p>This part is inside a .container-fluid class.</p> 
+        <p>The .container-fluid class provides a full width container, spanning the entire width of the viewport.</p>           
+    </div>
+    <br>
+
+    <!--GRID SYSTEM-->
+    <h1 style="text-align: center;">GRID SYSTEM</h1>
+    <div class="container-fluid" style="text-align: center;">
+        <div class="row">
+            <div class="col-sm-1" style="background-color: #FFF1DC;">span 1</div>
+            <div class="col-sm-1" style="background-color: #3A98B9;">span 1</div>
+            <div class="col-sm-1" style="background-color: #FFF1DC;">span 1</div>
+            <div class="col-sm-1" style="background-color: #3A98B9;">span 1</div>
+            <div class="col-sm-1" style="background-color: #FFF1DC;">span 1</div>
+            <div class="col-sm-1" style="background-color: #3A98B9;">span 1</div>
+            <div class="col-sm-1" style="background-color: #FFF1DC;">span 1</div>
+            <div class="col-sm-1" style="background-color: #3A98B9;">span 1</div>
+            <div class="col-sm-1" style="background-color: #FFF1DC;">span 1</div>
+            <div class="col-sm-1" style="background-color: #3A98B9;">span 1</div>
+            <div class="col-sm-1" style="background-color: #FFF1DC;">span 1</div>
+            <div class="col-sm-1" style="background-color: #3A98B9;">span 1</div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="text-align: center;">
+        <div class="row">
+            <div class="col-sm-4" style="background-color: #DFFFD8;">span 4</div>
+            <div class="col-sm-4" style="background-color: #B4E4FF;">span 4</div>
+            <div class="col-sm-4" style="background-color: #DFFFD8;">span 4</div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="text-align: center;">
+        <div class="col-sm-4" style="background-color: #FFF1DC;">span 4</div>
+        <div class="col-sm-8" style="background-color: #3A98B9;">span 8</div>
+    </div>
+
+    <div class="container-fluid" style="text-align: center;">
+        <div class="col-sm-6" style="background-color: #DFFFD8;">span 6</div>
+        <div class="col-sm-6" style="background-color: #B4E4FF;">span 6</div>
+    </div>
+
+    <div class="container-fluid" style="text-align: center;">
+        <div class="col-sm-12" style="background-color: #FFF1DC;">span 12</div>
+    </div>
+    <br>
+    
+    <!--BASIC TABLES-->
+    <h1 style="text-align: center;">BASIC TABLES</h1>
+    <div class="container">            
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    <br>
+
+    <!--BUTTONS-->
+    <h1 style="text-align: center;">BUTTON STYLES</h1>
+    <div class="container">
+        <button type="button" class="btn">Basic</button>
+        <button type="button" class="btn btn-default">Default</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-link">Link</button>      
+      </div>
+      <br>
+</body>
+</html>

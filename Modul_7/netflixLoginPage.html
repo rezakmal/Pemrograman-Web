@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="netflixLoginPage.css">
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!--jQuery library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <!--latest compiled JavaScript-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>NETFLIX LOGIN PAGE</title>
+</head>
+<body>
+    <div class="header">
+      <img src="netflix.svg" alt="">
+    </div>
+
+    <div class="login">
+        <div class="login-content" style="color: white;">
+            <h2>Sign In </h2>
+            <form class="form-horizontal">
+                <div class="form-group">
+                  <div class="col-sm-offset-0 col-sm-12">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email or phone number">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-0 col-sm-12">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                  </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-0 col-sm-12">
+                      <button type="submit" class="btn btn-default">Sign in</button>
+                    </div>
+                  </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-0 col-sm-10">
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">Remember me
+                      </label>
+                    </div>
+                  </div>
+                  <a href="" class="needHelp">Need help?</a>
+                </div>
+              </form>
+              <div class="hybrid-login-form">
+                <div class="sign-up-now">
+                  <span>New to Netflix?</span> <a href="">Sign up now</a>.
+                </div>
+                <div class="recaptcha">
+                  <p>
+                    <span>
+                      This page is protected by Google reCAPTCHA to ensure you're not a bot.
+                    </span>
+                    <button class="recaptcha-learn-more-button">
+                      Learn more.
+                    </button>
+                  </p>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="footer-content">
+      <div class="footer-divider">
+        <div class="site-footer">
+          <p class="footer-top">
+            Questions? Call <a href="">007-803-321-2130</a>
+          </p>
+          <ul class="footer-links structural">
+            <li class="footer-link-item">
+              <a class="footer-link" href="">
+                <span>FAQ</span>
+              </a>
+            </li>
+            <li class="footer-link-item">
+              <a class="footer-link" href="">
+                <span>Help Center</span>
+              </a>
+            </li>
+            <li class="footer-link-item">
+              <a class="footer-link" href="">
+                <span>Terms of Use</span>
+              </a>
+            </li>
+            <li class="footer-link-item">
+              <a class="footer-link" href="">
+                <span>Privacy</span>
+              </a>
+            </li>
+            <li class="footer-link-item">
+              <a class="footer-link" href="">
+                <span>Cookie Preferences</span>
+              </a>
+            </li>
+            <li class="footer-link-item">
+              <a class="footer-link" href="">
+                <span>Corporate Information</span>
+              </a>
+            </li>
+          </ul>
+          <div class="lang-selection-container" id="lang-switcher">
+            <div class="ui-select-wrapper">
+              <label for="lang-switcher-select" class="ui-label">
+                <span>
+                  <!-- Select -->
+                </span>
+              </label>
+              <div class="select-arrow medium prefix globe">
+                <select class="ui-select-medium" id="lang-switcher-select" tabindex="0" placeholder="lang-switcher">
+                  <option lang="id" value="/id/login" data-language="id" data-country="ID">
+                    Bahasa Indonesia
+                  </option>
+                  <option selected lang="en" value="/id-en/login" data-language="en" data-country="ID">
+                    English
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

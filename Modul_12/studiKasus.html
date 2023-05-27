@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        font-family: sans-serif;
+    }
+
+    .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .container {
+        padding: 2px 16px;
+    }
+</style>
+<body>
+    <h1>Color Picker</h1>
+    <div class="card" style="background-color: mediumaquamarine;"
+    onclick="document.bgColor='mediumaquamarine'">
+        <div class="container">
+            <h4><b>Medium Aquamarine</b></h4>
+            <p>
+                The color medium aquamarine with hexadecimal color code
+                #66ddaa/#6da is a medium light shade of green-cyan.
+                In the RGB color model #66ddaa is comprised of 40% red, 86.67% green and 66.67% blue.
+            </p>
+        </div>
+    </div>
+
+    <div class="card" style="background-color: aquamarine;"
+    onclick="document.bgColor='aquamarine'">
+        <div class="container">
+            <h4><b>Aquamarine</b></h4>
+            <p>
+                Aquamarine comes from mineral of the same name, a refined blend of green, 
+                cyan, and blue. With the balance of green and peace from blue, Aquamarine 
+                is soothing, calm, serene, tropical, and undeniably fresh.
+            </p>
+        </div>
+    </div>
+
+    <div class="card" style="background-color: teal;" onclick="document.bgColor='teal'">
+        <div class="container">
+            <h4><b>Teal</b></h4>
+            <p>
+                Teal combines the calming properties of blue with the renewal qualities of green.
+                It is a revitalizing and rejuvinating color that also represents open communication 
+                and clarity of thought. For Tibetan monks, teal is symbolic of the infinity of the sea and sky, 
+                while it is the color of truth and faith for Egyptians.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
